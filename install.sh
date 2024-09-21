@@ -11,6 +11,4 @@ sudo pacman -S neovim kitty nodejs npm yarn python-black python-ruff mypy stylua
 cd ~/.config/
 git clone https://github.com/xlebushek13/neovim-config-new.git
 mv ~/.config/neovim-config-new nvim
-yay -S konsave
-konsave -i kde-config-konsave.knsv
-konsave -a my-conf
+yay -S konsave;
