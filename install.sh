@@ -7,7 +7,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 mkdir ~/.config/kitty/
 cp kitty.conf ~/.config/kitty/
-sudo pacman -S neovim kitty nodejs npm yarn python-black python-ruff mypy stylua zoxide
+sudo pacman -S neovim kitty nodejs npm yarn python-black python-ruff mypy stylua zoxide fzf ripgrep
 cd ~/.config/
 git clone https://github.com/xlebushek13/neovim-config-new.git
 mv ~/.config/neovim-config-new nvim
