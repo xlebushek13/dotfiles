@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo pacman -S zsh;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 echo 'Completed install Oh My Zsh' && cp .zshrc .zhistory .zsh_history ~/;
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
