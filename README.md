@@ -1,6 +1,10 @@
 ## To install
 
 ```bash
+cd dotfiles/
+```
+
+```bash
 sudo chmod +x install.sh
 ```
 
