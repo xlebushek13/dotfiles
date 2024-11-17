@@ -78,6 +78,8 @@ bgnotify_threshold=4
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+#
+source ~/.oh-my-zsh/custom/plugins/catppuccin_mocha-zsh-syntax-highlighting.zsh
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting aliases bgnotify rust redis-cli vi-mode web-search zsh-interactive-cd)
 
 source $ZSH/oh-my-zsh.sh
@@ -126,6 +128,12 @@ export CARGO_NET_GIT_FETCH_WITH_CLI=true
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+--color=selected-bg:#45475a \
+--multi"
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
